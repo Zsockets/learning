@@ -17,11 +17,11 @@ gcc -o net.out net.c
 ```
 
 ## Basic usage: 
-
+```bash
  ./net.out -a : List all connections regardless of state.
  ./net.out -t : List connections with "ESTABLISHED" state.
  ./net.out -l : List connections with "LISTENING" state.
-
+```
 ## To be implemented:
 
  1) Better connection filtering and search by parsing dynamic command-line args. (optarg or getopt).
