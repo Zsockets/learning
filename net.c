@@ -110,7 +110,11 @@ start of a Connection structure, without the cast, the compiler wouldn't know ho
 the memory.
  */
 	struct Connection *new_node = (struct Connection*)malloc(sizeof(struct Connection));	
-	
+	if(new_node == NULL){
+		fprintf(stderr, "Mem allocation failed.\n");
+		break;
+	    }
+
 	if(head == NULL){
 	    head = new_node;
 	    }
