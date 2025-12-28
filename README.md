@@ -1,7 +1,7 @@
-# learning / net.c
-# Dec 27 2025
+# net.c
+## Dec 27 2025
 
-# This is a learning project, to shake the rust off and prepare for my next semester, as well as learning/touching on some important topics such as:
+### This is a learning project, to shake the rust off and prepare for my next semester, as well as learning/touching on some important topics such as:
  1) Parsing virtual file systems (/proc)
  2) Memory management, "leapfrogging" ,when to use free(), how malloc() works with sizeof() and type casting
  3) Bit manipulation (shifting and masking bits to convert network byte order to human-readable)
